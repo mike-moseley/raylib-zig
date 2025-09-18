@@ -134,6 +134,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Multitouch input",
         },
         .{
+            .name = "input_gamepad",
+            .path = "examples/core/input_gamepad.zig",
+            .desc = "Simple gamepad input",
+        },
+        .{
             .name = "2d_camera",
             .path = "examples/core/2d_camera.zig",
             .desc = "Shows the functionality of a 2D camera",
